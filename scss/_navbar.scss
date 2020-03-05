@@ -1,6 +1,9 @@
 #mainNav {
   min-height: 56px;
   background-color: $white;
+  .navbar-logo img{
+    width: 50px;
+  }
   .navbar-toggler {
     font-size: 80%;
     padding: 0.75rem;
@@ -48,6 +51,9 @@
       }
       &:active {
         color: white;
+      }
+      .navbar-logo img{
+        width: 75px;
       }
     }
     &.navbar-shrink {
